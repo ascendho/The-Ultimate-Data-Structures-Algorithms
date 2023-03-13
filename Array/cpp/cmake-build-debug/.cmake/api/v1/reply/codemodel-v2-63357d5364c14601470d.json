@@ -15,8 +15,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -31,8 +30,7 @@
 					"name" : "cpp",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -40,15 +38,8 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Array::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Array-Debug-41d46f677f2d9cca5f13.json",
-					"name" : "Array",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
 					"id" : "cpp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cpp-Debug-0a047614e8d863a87242.json",
+					"jsonFile" : "target-cpp-Debug-28e8e7ea8ba3494614f7.json",
 					"name" : "cpp",
 					"projectIndex" : 0
 				}
