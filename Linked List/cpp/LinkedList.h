@@ -14,8 +14,11 @@ class LinkedList {
 private:
     Node *first;
     Node *last;
+    int size;
 
     bool isEmpty();
+    Node* getPrevious(Node* node);
+
 
 public:
     LinkedList();
@@ -27,6 +30,15 @@ public:
     int indexOf(int item);
 
     bool contains(int item);
+
+    void removeFirst();
+
+    void removeLast();
+
+    int Size();
+
+    int* toArray();
+
 
 
 };

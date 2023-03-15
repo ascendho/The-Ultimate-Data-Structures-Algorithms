@@ -9,8 +9,19 @@ bool LinkedList::isEmpty() {
     return first == nullptr;
 }
 
+Node *LinkedList::getPrevious(Node *node) {
+    Node *current = first;
+    while (current != nullptr) {
+        if (current->next == node)return current;
+        current = current->next;
+    }
+    return nullptr;
+
+}
+
 LinkedList::LinkedList() {
     first = last = nullptr;
+    size = 0;
 }
 
 void LinkedList::addFirst(int item) {
@@ -21,6 +32,7 @@ void LinkedList::addFirst(int item) {
         node->next = first;
         first = node;
     }
+    size++;
 }
 
 void LinkedList::addLast(int item) {
@@ -31,6 +43,7 @@ void LinkedList::addLast(int item) {
         last->next = node;
         last = node;
     }
+    size++;
 }
 
 int LinkedList::indexOf(int item) {
@@ -47,4 +60,46 @@ int LinkedList::indexOf(int item) {
 
 bool LinkedList::contains(int item) {
     return indexOf(item) != -1;
+}
+
+
+void LinkedList::removeFirst() {
+    if (isEmpty())
+        return;
+    if (first == last)
+        first = last = nullptr;
+    else {
+        Node *second = first->next;
+        first->next = nullptr;
+        first = second;
+    }
+    size--;
+}
+
+void LinkedList::removeLast() {
+    if (isEmpty())
+        return;
+    if (first == last)
+        first = last = nullptr;
+    else {
+        Node *prev = getPrevious(last);
+        last = prev;
+        last->next = nullptr;
+    }
+    size--;
+}
+
+int LinkedList::Size() {
+    return size;
+}
+
+int *LinkedList::toArray() {
+    int *array = new int[size];
+    Node *current = first;
+    int index = 0;
+    while (current != nullptr) {
+        array[index++] = current->value;
+        current = current->next;
+    }
+    return array;
 }
