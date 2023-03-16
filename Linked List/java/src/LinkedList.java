@@ -111,5 +111,25 @@ public class LinkedList {
         return array;
     }
 
+    public void reverse() {
+        if (isEmpty())
+            return;
+
+        var prev = first;
+        var curr = first.next;
+
+        while (curr != null) {
+            var next = curr.next;
+            curr.next = prev;
+            prev.next = null;
+            prev = curr;
+            curr = next;
+        }
+
+        last = first;
+        last.next = null;
+        first = prev;
+
+    }
 
 }

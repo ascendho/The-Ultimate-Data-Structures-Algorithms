@@ -20,12 +20,14 @@ public class Main {
         list.addLast(30);
         list.addFirst(-1);
 
-        list.removeLast();
+//        list.removeLast();
 
-        System.out.println(list.indexOf(-1));
-        System.out.println(list.contains(-1));
+//        System.out.println(list.indexOf(-1));
+//        System.out.println(list.contains(-1));
 
-        var array=list.toArray();
+        list.reverse();
+
+        var array = list.toArray();
         System.out.println(Arrays.toString(array));
 
 

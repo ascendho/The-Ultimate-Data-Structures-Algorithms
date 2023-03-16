@@ -103,3 +103,23 @@ int *LinkedList::toArray() {
     }
     return array;
 }
+
+void LinkedList::reverse() {
+    if (isEmpty())
+        return;
+
+    Node *prev = first;
+    Node *curr = first->next;
+
+    while (curr) {
+        Node *next = curr->next;
+        curr->next = prev;
+        prev = curr;
+        curr = next;
+    }
+
+    last = first;
+    last->next = nullptr;
+    first = prev;
+
+}

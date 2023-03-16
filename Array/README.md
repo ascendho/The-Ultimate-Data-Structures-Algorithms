@@ -1,11 +1,11 @@
 ## Runtime complexity
 
-| Operation  | Complexity |
-| :--------: | :--------: |
-| 按索引查找 |    O(1)    |
-|  按值查找  |    O(n)    |
-|    插入    |    O(n)    |
-|    删除    |    O(n)    |
+| Operation | Complexity |
+| :-------: | :--------: |
+| By Index  |    O(1)    |
+| By Value  |    O(n)    |
+|  Insert   |    O(n)    |
+|  Delete   |    O(n)    |
 
 
 

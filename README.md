@@ -2,21 +2,12 @@
 
 ## Progress
 
-|                        Data-Structure                        |                             cpp                              |                             Java                             |                          Exercises                           |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <a href="https://github.com/ascendho/The-Ultimate-Data-Structures-Algorithms/tree/master/Array">Array</a> | <a href="https://github.com/ascendho/The-Ultimate-Data-Structures-Algorithms/tree/master/Array/cpp">cpp</a> | <a href="https://github.com/ascendho/The-Ultimate-Data-Structures-Algorithms/tree/master/Array/java">Java</a> | <a href="https://github.com/ascendho/The-Ultimate-Data-Structures-Algorithms/blob/master/Array/10-%20Arrays-%20Exercises.pdf">10-Arrays-Exercises</a> |
-| <a href="https://github.com/ascendho/The-Ultimate-Data-Structures-Algorithms/tree/master/Linked%20List">LinkedList</a> | <a href="https://github.com/ascendho/The-Ultimate-Data-Structures-Algorithms/tree/master/Linked%20List/cpp">cpp</a> | <a href="https://github.com/ascendho/The-Ultimate-Data-Structures-Algorithms/tree/master/Linked%20List/java">Java</a> |                              \                               |
-|                            Stack                             |                             cpp                              |                             Java                             |                              \                               |
-|                            Queue                             |                             cpp                              |                             Java                             |                              \                               |
-|                          Hash Table                          |                             cpp                              |                             Java                             |                              \                               |
-|                            Binary                            |                             cpp                              |                             Java                             |                              \                               |
-|                           AVL Tree                           |                             cpp                              |                             Java                             |                              \                               |
-|                             Heap                             |                             cpp                              |                             Java                             |                              \                               |
-|                             Trie                             |                             cpp                              |                             Java                             |                              \                               |
+- <a href="https://github.com/ascendho/The-Ultimate-Data-Structures-Algorithms/tree/master/Array">Array</a>
+- <a href="https://github.com/ascendho/The-Ultimate-Data-Structures-Algorithms/tree/master/Linked%20List">LinkedList</a>
 
 
 
-## commit message
+## Commit message
 
 |   emoji   |  Shorthand  |                         meaning                          |
 | :-------: | :---------: | :------------------------------------------------------: |

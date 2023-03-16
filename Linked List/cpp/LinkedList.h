@@ -17,7 +17,8 @@ private:
     int size;
 
     bool isEmpty();
-    Node* getPrevious(Node* node);
+
+    Node *getPrevious(Node *node);
 
 
 public:
@@ -37,8 +38,9 @@ public:
 
     int Size();
 
-    int* toArray();
+    int *toArray();
 
+    void reverse();
 
 
 };
