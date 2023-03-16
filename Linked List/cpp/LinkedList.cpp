@@ -1,4 +1,5 @@
 #include "LinkedList.h"
+#include <cstdlib>
 
 Node::Node(int value) {
     this->value = value;
@@ -122,4 +123,46 @@ void LinkedList::reverse() {
     last->next = nullptr;
     first = prev;
 
+}
+
+int LinkedList::getKthFromTheEnd(int k) {
+    if (isEmpty())
+        exit(EXIT_FAILURE);
+
+    Node *head = first;
+    Node *second = first;
+
+    for (int i = 0; i > k - 1; i++) {
+        second = second->next;
+
+        // k is too large
+        if (nullptr == second)
+            exit(EXIT_FAILURE);
+    }
+
+    while (second != last) {
+        head = head->next;
+        second = second->next;
+    }
+
+    return head->value;
+}
+
+// My custom method
+Node *LinkedList::getKthNodeFromTheEnd(int k) {
+    if (isEmpty())
+        exit(EXIT_FAILURE);
+
+    Node *head = first;
+    Node *node = nullptr;
+
+    int order = size - k + 1;
+
+    while (order > 0) {
+        node = head;
+        head = head->next;
+        order--;
+    }
+
+    return node;
 }

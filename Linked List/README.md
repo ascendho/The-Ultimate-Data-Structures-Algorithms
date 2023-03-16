@@ -38,3 +38,12 @@ typora-copy-images-to: ./..\img
 
 - music playlist
 - ![image-20230316103011224](../img/image-20230316103011224.png)
+
+
+
+## Summary
+
+- Second most used data structures after array
+- Grow and shrink automatically
+- Take a bit more memory(reference to next or/and previous node)
+

@@ -121,7 +121,6 @@ public class LinkedList {
         while (curr != null) {
             var next = curr.next;
             curr.next = prev;
-            prev.next = null;
             prev = curr;
             curr = next;
         }
@@ -129,7 +128,46 @@ public class LinkedList {
         last = first;
         last.next = null;
         first = prev;
-
     }
 
+    public int getKthFromTheEnd(int k) {
+        if (isEmpty())
+            throw new IllegalStateException();
+
+        var head = first;
+        var second = first;
+
+        for (int i = 0; i < k - 1; i++) {
+            second = second.next;
+
+            // k is too large
+            if (null == second)
+                throw new IllegalArgumentException();
+        }
+
+        while (second != last) {
+            head = head.next;
+            second = second.next;
+        }
+
+        return head.value;
+    }
+
+    // My custom method
+    public Node getKthNodeFromTheEnd(int k) {
+        if (isEmpty())
+            throw new IllegalStateException();
+
+        var head = first;
+        Node node = null;
+
+        int order = size - k + 1;
+
+        while (order > 0) {
+            node = head;
+            head = head.next;
+            order--;
+        }
+        return node;
+    }
 }

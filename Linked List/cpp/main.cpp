@@ -27,5 +27,13 @@ int main() {
     for (int i = 0; i < _msize(arr) / sizeof(arr[0]); i++)
         cout << arr[i] << " ";
 
+    list.addFirst(30);
+    list.addLast(50);
+//  [30 20 10 50]
+
+    cout << list.getKthFromTheEnd(3) << endl;
+    cout << list.getKthNodeFromTheEnd(3)->value << endl;
+//   20
+
     return 0;
 }

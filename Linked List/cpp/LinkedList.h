@@ -42,6 +42,10 @@ public:
 
     void reverse();
 
+    int getKthFromTheEnd(int k);
+
+    Node* getKthNodeFromTheEnd(int k);
+
 
 };
 

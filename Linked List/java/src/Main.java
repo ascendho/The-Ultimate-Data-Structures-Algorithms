@@ -14,21 +14,32 @@ public class Main {
 //
 //        var array = list.toArray();
 //        System.out.println(Arrays.toString(array));
+
         var list = new LinkedList();
         list.addLast(10);
         list.addLast(20);
         list.addLast(30);
         list.addFirst(-1);
+        // [-1,10,20,30]
 
-//        list.removeLast();
+        list.removeLast();
+        // [-1,10,20]
 
-//        System.out.println(list.indexOf(-1));
-//        System.out.println(list.contains(-1));
+        System.out.println(list.indexOf(-1));
+        // 0
+
+        System.out.println(list.contains(-1));
+        // true
 
         list.reverse();
+        // [20,10,-1]
 
         var array = list.toArray();
         System.out.println(Arrays.toString(array));
+
+
+        var node = list.getKthNodeFromTheEnd(3);
+        int val=list.getKthFromTheEnd(3);
 
 
     }
