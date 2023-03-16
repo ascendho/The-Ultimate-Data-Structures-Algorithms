@@ -9,7 +9,7 @@
 
 ## Commit message
 
-|   emoji   |  Shorthand  |                         meaning                          |
+|   Emoji   |  Shorthand  |                         Meaning                          |
 | :-------: | :---------: | :------------------------------------------------------: |
 |  :tada:   |  `:tada:`   |                    Initialize project                    |
 |  :memo:   |  `:memo:`   |   Update document,including but not limited to README    |
