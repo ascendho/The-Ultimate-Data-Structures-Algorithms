@@ -1,0 +1,9 @@
+# ninja log v5
+1	700	7007636379825282	CMakeFiles/cpp.dir/main.cpp.obj	32d2dbc38b8cc866
+15	741	7007636380140157	CMakeFiles/cpp.dir/StringReverser.cpp.obj	f1df8fdf4092acdc
+742	1111	7007636383918158	cpp.exe	51882a71edb08137
+8	643	7007637061834341	CMakeFiles/cpp.dir/main.cpp.obj	32d2dbc38b8cc866
+17	694	7007637062323804	CMakeFiles/cpp.dir/StringReverser.cpp.obj	f1df8fdf4092acdc
+695	1028	7007637065578176	cpp.exe	51882a71edb08137
+8	607	7007637120909800	CMakeFiles/cpp.dir/main.cpp.obj	32d2dbc38b8cc866
+609	941	7007637124168708	cpp.exe	51882a71edb08137
