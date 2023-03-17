@@ -2,7 +2,7 @@
 
 - Implement the undo feature
 - Build compilers(eg syntax checking)
-- Evaluate expressions(eg 1+2*3)
+- Evaluate expressions(eg $1+2\times3$)
 - Build navigation(eg forward/back)
 
 
