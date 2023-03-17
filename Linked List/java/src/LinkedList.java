@@ -170,4 +170,53 @@ public class LinkedList {
         }
         return node;
     }
+
+    public void printMiddle() {
+        if (isEmpty())
+            throw new IllegalStateException();
+
+        var head = first;
+        var tail = first;
+        while (tail != last && tail.next != last) {
+            tail = tail.next.next;
+            first = first.next;
+        }
+        if (tail == last)
+            System.out.println(first.value);
+        else
+            System.out.println(first.value + "," + first.next.value);
+
+    }
+
+    public boolean hasLoop() {
+        var fast = first;
+        var slow = first;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (fast == slow)
+                return true;
+        }
+        return false;
+    }
+
+    public static LinkedList createWithLoop() {
+        var list = new LinkedList();
+        list.addLast(10);
+        list.addLast(20);
+        list.addLast(30);
+
+        // Get a reference to 30
+        var node = list.last;
+
+        list.addLast(40);
+        list.addLast(50);
+
+        // Create the loop
+        list.last.next = node;
+
+        return list;
+    }
 }

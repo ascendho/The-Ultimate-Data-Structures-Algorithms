@@ -44,9 +44,13 @@ public:
 
     int getKthFromTheEnd(int k);
 
-    Node* getKthNodeFromTheEnd(int k);
+    Node *getKthNodeFromTheEnd(int k);
 
+    void printMiddle();
 
+    bool hasLoop();
+
+    static LinkedList* createWithLoop();
 };
 
 

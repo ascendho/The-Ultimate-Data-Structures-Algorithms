@@ -35,5 +35,8 @@ int main() {
     cout << list.getKthNodeFromTheEnd(3)->value << endl;
 //   20
 
+    LinkedList *listWithLoop = LinkedList::createWithLoop();
+    cout << listWithLoop->hasLoop() << endl;
+
     return 0;
 }

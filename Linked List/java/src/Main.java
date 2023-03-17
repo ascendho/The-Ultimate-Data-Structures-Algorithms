@@ -39,7 +39,11 @@ public class Main {
 
 
         var node = list.getKthNodeFromTheEnd(3);
-        int val=list.getKthFromTheEnd(3);
+        int val = list.getKthFromTheEnd(3);
+
+        var listWithLoop = LinkedList.createWithLoop();
+        System.out.println(listWithLoop.hasLoop());
+        listWithLoop.printMiddle();
 
 
     }

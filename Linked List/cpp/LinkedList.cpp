@@ -1,5 +1,8 @@
 #include "LinkedList.h"
 #include <cstdlib>
+#include <iostream>
+
+using namespace std;
 
 Node::Node(int value) {
     this->value = value;
@@ -165,4 +168,56 @@ Node *LinkedList::getKthNodeFromTheEnd(int k) {
     }
 
     return node;
+}
+
+void LinkedList::printMiddle() {
+    if (isEmpty())
+        exit(EXIT_FAILURE);
+
+    Node *head = first;
+    Node *tail = first;
+
+    while (tail != last && tail->next != last) {
+        tail = tail->next->next;
+        first = first->next;
+    }
+
+    if (tail == last)
+        cout << first->value << endl;
+    else
+        cout << first->value << "," << first->next->value << endl;
+}
+
+bool LinkedList::hasLoop() {
+    Node *fast = first;
+    Node *slow = first;
+
+    while (fast != nullptr && fast->next != nullptr) {
+        slow = slow->next;
+        fast = fast->next->next;
+
+        if (fast == slow)
+            return true;
+
+    }
+    return false;
+}
+
+LinkedList *LinkedList::createWithLoop() {
+    LinkedList *list = new LinkedList();
+
+    list->addLast(10);
+    list->addLast(20);
+    list->addLast(30);
+
+    // Get a reference to 30
+    Node *node = list->last;
+
+    list->addLast(40);
+    list->addLast(50);
+
+    // Create the loop
+    list->last->next = node;
+
+    return list;
 }
