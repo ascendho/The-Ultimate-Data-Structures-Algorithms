@@ -16,11 +16,16 @@ public class Main {
 //        System.out.println(stack);
 //        System.out.println(top);
 
-        // Reversing a String
-        String str = "abcd";
+//        Reversing a String
+//        String str = "abcd";
+//
+//        StringReverser reverser = new StringReverser();
+//        System.out.println(reverser.reverse(str));
 
-        StringReverser reverser = new StringReverser();
-        System.out.println(reverser.reverse(str));
+//        Balanced expression
+        String input = "[{3*(2-3)}]()";
+        Expression exp = new Expression(input);
+        System.out.println(exp.isBalanced());
 
 
     }
