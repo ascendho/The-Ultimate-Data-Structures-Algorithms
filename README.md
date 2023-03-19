@@ -1,4 +1,68 @@
+---
+typora-copy-images-to: ./img
+---
+
 # The-Ultimate-Data-Structures-Algorithms
+
+## Course Introduction
+
+[<img src="img/image-20230319200954267.png" align=right hspace=10 width=250>](https://algs4.cs.princeton.edu/)
+
+This is an introductory DS and Alg course taught by <a href="https://github.com/mosh-hamedani">Mosh Hamedani</a>, divided into three Parts, which you can buy any part of it on <a href="https://codewithmosh.com/p/data-structures-algorithms">Code with Mosh</a>.
+
+
+
+\- [Part I](https://codewithmosh.com/p/data-structures-algorithms-part1) is all about linear data structures and their algorithms:
+
+- [ ] Big O Notation
+
+- [x] Arrays
+
+- [x] Linked Lists
+
+- [ ] Stacks
+
+- [ ] Queues
+
+- [ ] Hash Tables
+
+
+
+\- [Part II](https://codewithmosh.com/p/data-structures-algorithms-part-2) covers non-linear data structures and their algorithms:
+
+- [ ] Binary Trees
+
+- [ ] AVL Trees
+
+- [ ] Heaps
+
+- [ ] Tries
+
+- [ ] Graphs
+
+
+
+\- [Part III](https://codewithmosh.com/p/data-structures-algorithms-part-3) explores:
+
+- [ ] Searching Algorithms
+
+- [ ] Sorting Algorithms
+
+- [ ] String Manipulation Algorithms
+
+
+
+## Source code
+
+I am currently following this course, constantly maintain this repo, besides the Java source code in the course, I am also trying to implement every data structure and algorithm in c++.
+
+
+
+## Folder clarification
+
+Each folder consists of four parts: **Java** for original java code, **cpp** for c plus plus-implemented code, one **README** for notes and one **Exercises** pdf.
+
+
 
 ## Progress
 
@@ -18,3 +82,9 @@
 | :recycle: | `:recycle:` | Refactor, mainly modify pre-existing code and annotation |
 | :pencil2: | `:pencil2:` |               Proofread, ex: correct typos               |
 |   :bug:   |   `:bug:`   |                         Fix bugs                         |
+
+
+
+## Copyright
+
+For any materials related to my work, for example **cpp-implemented code**、**Notes** are licensed under MIT, and the other work related to the original author, please contact him.
