@@ -4,15 +4,13 @@ typora-copy-images-to: ./img
 
 # The-Ultimate-Data-Structures-Algorithms
 
-## Course Introduction
-
 [<img src="img/image-20230319200954267.png" align=right hspace=10 width=250>](https://algs4.cs.princeton.edu/)
 
 This is an introductory DS and Alg course taught by <a href="https://github.com/mosh-hamedani">Mosh Hamedani</a>, divided into three Parts, which you can buy any part of it on <a href="https://codewithmosh.com/p/data-structures-algorithms">Code with Mosh</a>.
 
 
 
-\- [Part I](https://codewithmosh.com/p/data-structures-algorithms-part1) is all about linear data structures and their algorithms:
+- [Part I](https://codewithmosh.com/p/data-structures-algorithms-part1) is all about linear data structures and their algorithms:
 
 - [ ] Big O Notation
 
@@ -28,7 +26,7 @@ This is an introductory DS and Alg course taught by <a href="https://github.com/
 
 
 
-\- [Part II](https://codewithmosh.com/p/data-structures-algorithms-part-2) covers non-linear data structures and their algorithms:
+- [Part II](https://codewithmosh.com/p/data-structures-algorithms-part-2) covers non-linear data structures and their algorithms:
 
 - [ ] Binary Trees
 
@@ -42,7 +40,7 @@ This is an introductory DS and Alg course taught by <a href="https://github.com/
 
 
 
-\- [Part III](https://codewithmosh.com/p/data-structures-algorithms-part-3) explores:
+- [Part III](https://codewithmosh.com/p/data-structures-algorithms-part-3) explores:
 
 - [ ] Searching Algorithms
 
