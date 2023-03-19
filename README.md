@@ -10,43 +10,16 @@ This is an introductory DS and Alg course taught by <a href="https://github.com/
 
 
 
-- [Part I](https://codewithmosh.com/p/data-structures-algorithms-part1) is all about linear data structures and their algorithms:
+**Course outline:**
 
-- [ ] Big O Notation
-
-- [x] Arrays
-
-- [x] Linked Lists
-
-- [ ] Stacks
-
-- [ ] Queues
-
-- [ ] Hash Tables
-
-
-
-- [Part II](https://codewithmosh.com/p/data-structures-algorithms-part-2) covers non-linear data structures and their algorithms:
-
-- [ ] Binary Trees
-
-- [ ] AVL Trees
-
-- [ ] Heaps
-
-- [ ] Tries
-
-- [ ] Graphs
-
-
-
-- [Part III](https://codewithmosh.com/p/data-structures-algorithms-part-3) explores:
-
-- [ ] Searching Algorithms
-
-- [ ] Sorting Algorithms
-
-- [ ] String Manipulation Algorithms
+| [Part I](https://codewithmosh.com/p/data-structures-algorithms-part1) | [Part II](https://codewithmosh.com/p/data-structures-algorithms-part-2) | [Part III](https://codewithmosh.com/p/data-structures-algorithms-part-3) |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|                        Big O Notation                        |                         Binary Trees                         |                     Searching Algorithms                     |
+|                            Arrays                            |                          AVL Trees                           |                      Sorting Algorithms                      |
+|                         Linked Lists                         |                            Heaps                             |                String Manipulation Algorithms                |
+|                            Stacks                            |                            Tries                             |                                                              |
+|                            Queues                            |                            Graphs                            |                                                              |
+|                         Hash Tables                          |                                                              |                                                              |
 
 
 
@@ -64,9 +37,11 @@ Each folder consists of four parts: **Java** for original java code, **cpp** for
 
 ## Progress
 
-- <a href="https://github.com/ascendho/The-Ultimate-Data-Structures-Algorithms/tree/master/Array">Array</a>
-- <a href="https://github.com/ascendho/The-Ultimate-Data-Structures-Algorithms/tree/master/Linked%20List">LinkedList</a>
-- <a href="https://github.com/ascendho/The-Ultimate-Data-Structures-Algorithms/tree/master/Stack">Stack</a>
+- [x] <a href="https://github.com/ascendho/The-Ultimate-Data-Structures-Algorithms/tree/master/Array">Array</a>
+
+- [x] <a href="https://github.com/ascendho/The-Ultimate-Data-Structures-Algorithms/tree/master/Linked%20List">LinkedList</a>
+
+- [ ] <a href="https://github.com/ascendho/The-Ultimate-Data-Structures-Algorithms/tree/master/Stack">Stack</a>
 
 
 
