@@ -3,4 +3,4 @@ project(cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(cpp main.cpp StringReverser.cpp StringReverser.h Expression.cpp Expression.h)
+add_executable(cpp main.cpp StringReverser.cpp StringReverser.h Expression.cpp Expression.h myStack.cpp myStack.h)

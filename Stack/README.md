@@ -13,3 +13,11 @@
 - pop()
 - peek()
 - isEmpty()
+
+
+
+## Summary
+
+- Last-In First-Out(LIFO)
+- Can be implemented using Arrays/Linked Lists
+- All operations run in O(1)

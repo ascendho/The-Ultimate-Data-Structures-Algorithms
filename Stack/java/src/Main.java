@@ -27,6 +27,15 @@ public class Main {
         Expression exp = new Expression(input);
         System.out.println(exp.isBalanced());
 
+//        My Stack
+        myStack st = new myStack();
+        st.push(30);
+        st.push(10);
+        st.push(40);
+        st.push(90);
+        st.pop();
+
+        System.out.println(st.peek());
 
     }
 }
