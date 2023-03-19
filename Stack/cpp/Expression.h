@@ -9,11 +9,12 @@ using namespace std;
 class Expression {
 
 private:
-//    vector<char> input;
     string input;
+    string leftBrackets = "(<[{";
+    string rightBrackets = ")>]}";
 
 public:
-    Expression(string input);
+    explicit Expression(string input);
 
     bool isBalanced();
 

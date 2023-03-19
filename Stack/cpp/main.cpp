@@ -1,20 +1,21 @@
 #include <iostream>
 #include <string>
-#include <vector>
 #include "StringReverser.h"
+#include "Expression.h"
 
 using namespace std;
 
 int main() {
 
+    // Reversing a string
     StringReverser reverser;
     string res = reverser.reverse("abcdefg");
 
     cout << res << endl;
 
-//    vector<string>ch={"a","b","c"};
-//    cout<<ch[0]<<endl;
-
+    // Paren-Matching
+    Expression exp("{3*(2+4)}[0]");
+    cout << boolalpha << exp.isBalanced() << endl;
 
     return 0;
 }
