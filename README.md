@@ -4,9 +4,11 @@ typora-copy-images-to: ./img
 
 # The-Ultimate-Data-Structures-Algorithms
 
-[<img src="img/image-20230319200954267.png" align=right hspace=10 width=250>](https://algs4.cs.princeton.edu/)
+[<img src="img/image-20230319200954267.png" align=right hspace=10 width=250 hei>](https://codewithmosh.com/p/data-structures-algorithms)
 
-This is an introductory DS and Alg course taught by <a href="https://github.com/mosh-hamedani">Mosh Hamedani</a>, divided into three Parts, which you can buy any part of it on <a href="https://codewithmosh.com/p/data-structures-algorithms">Code with Mosh</a>.
+> One of the most comprehensive data structures and algorithms course online, packed with popular interview questions asked by Google, Microsoft, Amazon and other big companies,
+>
+> designed by <a href="https://github.com/mosh-hamedani">Mosh Hamedani</a>, and is divided into three Parts, which you can buy any part of it on <a href="https://codewithmosh.com/p/data-structures-algorithms">Code with Mosh</a>.
 
 
 
@@ -25,13 +27,13 @@ This is an introductory DS and Alg course taught by <a href="https://github.com/
 
 ## Source code
 
-I am currently following this course, constantly maintain this repo, besides the Java source code in the course, I am also trying to implement every data structure and algorithm in c++.
+I am currently working on this course, constantly maintain this repo, besides the Java source code in the course, I am also trying to implement every data structure and algorithm in c++, please feel free to **pull request** and submit a **issue**.
 
 
 
 ## Folder clarification
 
-Each folder consists of four parts: **Java** for original java code, **cpp** for c plus plus-implemented code, one **README** for notes and one **Exercises** pdf.
+The folder names should generally be self-explanatory and consists of four parts: **Java** for original java code, **cpp** for c plus plus-implemented code, one **README** for notes(Extracted from the course) and one **Exercises** pdf.
 
 
 
@@ -60,4 +62,4 @@ Each folder consists of four parts: **Java** for original java code, **cpp** for
 
 ## Copyright
 
-For any materials related to my work, for example **cpp-implemented code**、**Notes** are licensed under MIT, and the other work related to the original author, please contact him.
+For any materials related to my work, for example **cpp-implemented code** and **Notes** are licensed under MIT, for the others, please contact the <a href="">original author</a>.
