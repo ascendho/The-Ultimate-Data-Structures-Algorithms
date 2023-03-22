@@ -62,4 +62,4 @@ The folder names should generally be self-explanatory and consists of four parts
 
 ## Copyright
 
-For any materials related to my work, for example **cpp-implemented code** and **Notes** are licensed under MIT, for the others, please contact the <a href="">original author</a>.
+For any materials related to my work, for example **cpp-implemented code** and **Notes** are licensed under MIT, for the others, please contact the <a href="https://github.com/mosh-hamedani">original author</a>.
