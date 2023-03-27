@@ -45,6 +45,7 @@ The folder names should generally be self-explanatory and consists of four parts
 
 - [ ] <a href="https://github.com/ascendho/The-Ultimate-Data-Structures-Algorithms/tree/master/Stack">Stack</a>
 
+- [ ] <a href="Queues">Queues</a>
 
 
 ## Commit message
