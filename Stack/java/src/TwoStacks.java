@@ -61,9 +61,6 @@ public class TwoStacks {
 
     @Override
     public String toString() {
-
-//        if(isEmpty1())
-
         return Arrays.toString(items);
     }
 }
