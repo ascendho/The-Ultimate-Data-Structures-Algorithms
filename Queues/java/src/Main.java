@@ -28,8 +28,18 @@ public class Main {
         reverse(queue);
         System.out.println(queue);
 
-//        custom queue
-   
+//        custom ArrayQueue
+        ArrayQueue arrayQueue = new ArrayQueue(5);
+        arrayQueue.enqueue(5);
+        arrayQueue.enqueue(6);
+        arrayQueue.enqueue(7);
+        arrayQueue.enqueue(8);
+        arrayQueue.enqueue(9);
+        System.out.println(arrayQueue);
+        arrayQueue.dequeue();
+        System.out.println(arrayQueue);
+        arrayQueue.enqueue(10);
+        System.out.println(arrayQueue);
 
 
     }
