@@ -41,6 +41,15 @@ public class Main {
         arrayQueue.enqueue(10);
         System.out.println(arrayQueue);
 
+//        QueueWithTwoStacks
+        QueueWithTwoStacks queueWithTwoStacks = new QueueWithTwoStacks();
+        queueWithTwoStacks.enqueue(10);
+        queueWithTwoStacks.enqueue(20);
+        queueWithTwoStacks.enqueue(30);
+        System.out.println(queueWithTwoStacks.dequeue());
+        System.out.println(queueWithTwoStacks.dequeue());
+        System.out.println(queueWithTwoStacks.peek());
+
 
     }
 
