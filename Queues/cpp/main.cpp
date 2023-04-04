@@ -69,6 +69,20 @@ int main() {
     cout << queueWithTwoStacks.dequeue() << endl;
     cout << "--------" << endl;
 
+//    built-in priority queue
+
+    cout << "built-in priority queue" << endl;
+    priority_queue<int, vector<int>, greater<int>> priorityQueue;
+    priorityQueue.push(7);
+    priorityQueue.push(5);
+    priorityQueue.push(15);
+    priorityQueue.push(25);
+    while (!priorityQueue.empty()) {
+        cout << priorityQueue.top() << endl;
+        priorityQueue.pop();
+    };
+
+    cout << "--------" << endl;
 
     return 0;
 }
