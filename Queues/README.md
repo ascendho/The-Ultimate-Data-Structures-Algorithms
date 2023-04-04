@@ -14,6 +14,8 @@ typora-copy-images-to: ./..\img
 - Operating systems manage process
 - Web serves manage incoming requests
 - Live support systems
+- Sharing a resource amongst many consumers
+- Priority queues
 
 
 

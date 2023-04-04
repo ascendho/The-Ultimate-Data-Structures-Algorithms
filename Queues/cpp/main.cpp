@@ -4,6 +4,7 @@
 #include <string>
 #include "ArrayQueue.h"
 #include "QueueWithTwoStacks.h"
+#include "MyPriorityQueue.h"
 
 using namespace std;
 
@@ -81,6 +82,23 @@ int main() {
         cout << priorityQueue.top() << endl;
         priorityQueue.pop();
     };
+
+    cout << "--------" << endl;
+
+//    custom priority queue
+    cout << "custom priority queue" << endl;
+
+    MyPriorityQueue myPriorityQueue(5);
+    myPriorityQueue.add(3);
+    myPriorityQueue.add(7);
+    myPriorityQueue.add(5);
+    myPriorityQueue.add(1);
+    myPriorityQueue.add(4);
+
+    cout << myPriorityQueue.toString() << endl;
+
+    while (!myPriorityQueue.isEmpty())
+        cout << myPriorityQueue.remove() << endl;
 
     cout << "--------" << endl;
 

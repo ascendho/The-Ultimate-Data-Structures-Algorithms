@@ -78,6 +78,21 @@ public class Main {
 
         System.out.println("--------");
 
+//        custom priority queue
+        System.out.println("custom priority queue");
+        MyPriorityQueue myPriorityQueue = new MyPriorityQueue(5);
+        myPriorityQueue.add(3);
+        myPriorityQueue.add(7);
+        myPriorityQueue.add(5);
+        myPriorityQueue.add(1);
+        myPriorityQueue.add(4);
+        System.out.println(myPriorityQueue);
+
+        while (!myPriorityQueue.isEmpty())
+            System.out.println(myPriorityQueue.remove());
+
+        System.out.println("--------");
+
 
     }
 
