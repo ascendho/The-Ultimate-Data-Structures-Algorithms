@@ -73,6 +73,12 @@ build CMakeFiles/cpp.dir/MyPriorityQueue.cpp.obj: CXX_COMPILER__cpp_Debug D$:/Ud
   OBJECT_DIR = CMakeFiles\cpp.dir
   OBJECT_FILE_DIR = CMakeFiles\cpp.dir
 
+build CMakeFiles/cpp.dir/QueueReverser.cpp.obj: CXX_COMPILER__cpp_Debug D$:/Udemy/javaDS/code/Queues/cpp/QueueReverser.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles\cpp.dir\QueueReverser.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cpp
@@ -81,7 +87,7 @@ build CMakeFiles/cpp.dir/MyPriorityQueue.cpp.obj: CXX_COMPILER__cpp_Debug D$:/Ud
 #############################################
 # Link the executable cpp.exe
 
-build cpp.exe: CXX_EXECUTABLE_LINKER__cpp_Debug CMakeFiles/cpp.dir/main.cpp.obj CMakeFiles/cpp.dir/ArrayQueue.cpp.obj CMakeFiles/cpp.dir/QueueWithTwoStacks.cpp.obj CMakeFiles/cpp.dir/MyPriorityQueue.cpp.obj
+build cpp.exe: CXX_EXECUTABLE_LINKER__cpp_Debug CMakeFiles/cpp.dir/main.cpp.obj CMakeFiles/cpp.dir/ArrayQueue.cpp.obj CMakeFiles/cpp.dir/QueueWithTwoStacks.cpp.obj CMakeFiles/cpp.dir/MyPriorityQueue.cpp.obj CMakeFiles/cpp.dir/QueueReverser.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cpp.dir

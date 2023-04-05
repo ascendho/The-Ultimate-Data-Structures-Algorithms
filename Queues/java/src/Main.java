@@ -93,6 +93,24 @@ public class Main {
 
         System.out.println("--------");
 
+//        QueueReverser
+        System.out.println("QueueReverser");
+
+        QueueReverser queueReverser = new QueueReverser();
+        Queue<Integer> testQueue = new ArrayDeque<>();
+
+        testQueue.add(10);
+        testQueue.add(20);
+        testQueue.add(30);
+        testQueue.add(40);
+        testQueue.add(50);
+        System.out.println(testQueue);
+
+        queueReverser.reverse(testQueue, 3);
+        System.out.println(testQueue);
+
+        System.out.println("--------");
+
 
     }
 

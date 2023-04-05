@@ -5,6 +5,7 @@
 #include "ArrayQueue.h"
 #include "QueueWithTwoStacks.h"
 #include "MyPriorityQueue.h"
+#include "QueueReverser.h"
 
 using namespace std;
 
@@ -99,6 +100,27 @@ int main() {
 
     while (!myPriorityQueue.isEmpty())
         cout << myPriorityQueue.remove() << endl;
+
+    cout << "--------" << endl;
+
+//    QueueReverser
+    cout << "QueueReverser" << endl;
+
+    QueueReverser queueReverser;
+    queue<int> testQueue;
+
+    testQueue.push(10);
+    testQueue.push(20);
+    testQueue.push(30);
+    testQueue.push(40);
+    testQueue.push(50);
+
+    queueReverser.reverse(testQueue, 3);
+
+    while (!testQueue.empty()) {
+        cout << testQueue.front() << endl;
+        testQueue.pop();
+    }
 
     cout << "--------" << endl;
 
