@@ -47,6 +47,10 @@ The folder names should generally be self-explanatory and consists of four parts
 
 - [ ] <a href="Queues">Queues</a>
 
+- [ ] <a href="Hash Tables">Hash Tables</a>
+
+
+
 
 ## Commit message
 
