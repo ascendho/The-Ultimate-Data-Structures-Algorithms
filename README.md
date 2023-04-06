@@ -51,17 +51,9 @@ The folder names should generally be self-explanatory and consists of four parts
 
 
 
+## Commit Messages
 
-## Commit message
-
-|   Emoji   |  Shorthand  |                         Meaning                          |
-| :-------: | :---------: | :------------------------------------------------------: |
-|  :tada:   |  `:tada:`   |                    Initialize project                    |
-|  :memo:   |  `:memo:`   |   Update document,including but not limited to README    |
-|  :bulb:   |  `:bulb:`   |                 Release new source code                  |
-| :recycle: | `:recycle:` | Refactor, mainly modify pre-existing code and annotation |
-| :pencil2: | `:pencil2:` |               Proofread, ex: correct typos               |
-|   :bug:   |   `:bug:`   |                         Fix bugs                         |
+All git emoji comes from <a href="https://gitmoji.dev/">here</a>
 
 
 
