@@ -7,6 +7,7 @@
 #include "MyPriorityQueue.h"
 #include "QueueReverser.h"
 #include "LinkedListQueue.h"
+#include "StackWithTwoQueues.h"
 
 using namespace std;
 
@@ -138,6 +139,21 @@ int main() {
     cout << linkedListQueue.peek() << endl;
 
     cout << "--------" << endl;
+
+//    StackWithTwoQueues
+    cout << "StackWithTwoQueues" << endl;
+
+    StackWithTwoQueues stackWithTwoQueues;
+
+    stackWithTwoQueues.push(10);
+    stackWithTwoQueues.push(30);
+    stackWithTwoQueues.push(50);
+    cout << stackWithTwoQueues.pop() << endl;
+    cout << stackWithTwoQueues.peek() << endl;
+    cout << stackWithTwoQueues.toString() << endl;
+
+    cout << "--------" << endl;
+
 
     return 0;
 }

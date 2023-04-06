@@ -3,4 +3,4 @@ project(cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(cpp main.cpp ArrayQueue.cpp ArrayQueue.h QueueWithTwoStacks.cpp QueueWithTwoStacks.h MyPriorityQueue.cpp MyPriorityQueue.h QueueReverser.cpp QueueReverser.h LinkedListQueue.cpp LinkedListQueue.h)
+add_executable(cpp main.cpp ArrayQueue.cpp ArrayQueue.h QueueWithTwoStacks.cpp QueueWithTwoStacks.h MyPriorityQueue.cpp MyPriorityQueue.h QueueReverser.cpp QueueReverser.h LinkedListQueue.cpp LinkedListQueue.h StackWithTwoQueues.cpp StackWithTwoQueues.h)

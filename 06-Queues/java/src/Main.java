@@ -127,6 +127,21 @@ public class Main {
 
         System.out.println("--------");
 
+//        StackWithTwoQueues
+        System.out.println("StackWithTwoQueues");
+
+        StackWithTwoQueues stackWithTwoQueues = new StackWithTwoQueues();
+        stackWithTwoQueues.push(10);
+        stackWithTwoQueues.push(30);
+        stackWithTwoQueues.push(50);
+
+        System.out.println(stackWithTwoQueues.pop());
+        System.out.println(stackWithTwoQueues.peek());
+
+        System.out.println(stackWithTwoQueues);
+
+        System.out.println("--------");
+
 
     }
 
