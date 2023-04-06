@@ -53,7 +53,7 @@ The folder names should generally be self-explanatory and consists of four parts
 
 ## Commit Messages
 
-All git emoji comes from <a href="https://gitmoji.dev/">here</a>
+All git emojis come from <a href="https://gitmoji.dev/">here</a>
 
 
 
