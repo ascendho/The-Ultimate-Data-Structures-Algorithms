@@ -45,7 +45,7 @@ The folder names should generally be self-explanatory and consists of four parts
 
 - [x] <a href="https://github.com/ascendho/The-Ultimate-Data-Structures-Algorithms/tree/master/Stack">Stack</a>
 
-- [ ] <a href="Queues">Queues</a>
+- [ ] <a href="06-Queues">Queues</a>
 
 - [ ] <a href="Hash Tables">Hash Tables</a>
 
