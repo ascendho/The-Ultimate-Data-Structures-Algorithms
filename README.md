@@ -39,15 +39,15 @@ The folder names should generally be self-explanatory and consists of four parts
 
 ## Progress
 
-- [x] <a href="https://github.com/ascendho/The-Ultimate-Data-Structures-Algorithms/tree/master/Array">Array</a>
+- [x] <a href="01-Arrays">Arrays</a>
 
-- [x] <a href="https://github.com/ascendho/The-Ultimate-Data-Structures-Algorithms/tree/master/Linked%20List">LinkedList</a>
+- [x] <a href="02-Linked Lists">LinkedLists</a>
 
-- [x] <a href="https://github.com/ascendho/The-Ultimate-Data-Structures-Algorithms/tree/master/Stack">Stack</a>
+- [x] <a href="03-Stacks">Stacks</a>
 
-- [x] <a href="06-Queues">Queues</a>
+- [x] <a href="04-Queues">Queues</a>
 
-- [ ] <a href="Hash Tables">Hash Tables</a>
+- [ ] <a href="05-Hash Tables">Hash Tables</a>
 
 
 
