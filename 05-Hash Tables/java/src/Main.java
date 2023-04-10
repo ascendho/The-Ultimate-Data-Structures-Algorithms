@@ -30,6 +30,14 @@ public class Main {
 
         System.out.println("--------");
 
+//        findFirstNonRepeatingChar
+        System.out.println("findFirstNonRepeatingChar");
+
+        CharFinder charFinder = new CharFinder();
+        System.out.println(charFinder.findFirstNonRepeatingChar("A Green Apple"));
+        System.out.println(charFinder.findFirstNonRepeatingChar("An Apple is Green"));
+
+        System.out.println("--------");
 
     }
 }

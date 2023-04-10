@@ -1,6 +1,8 @@
 #include <iostream>
 #include <unordered_map>
 
+#include"CharFinder.h"
+
 using namespace std;
 
 int main() {
@@ -15,6 +17,15 @@ int main() {
     for (const auto &pair: myMap) {
         cout << pair.first << ", " << pair.second << endl;
     }
+
+    cout << "--------" << endl;
+
+//    findFirstNonRepeatingChar
+    cout << "findFirstNonRepeatingChar" << endl;
+
+    CharFinder charFinder;
+    cout << charFinder.findFirstNonRepeatingChar("A Green Apple") << endl;
+    cout << charFinder.findFirstNonRepeatingChar("An Apple is Green") << endl;
 
     cout << "--------" << endl;
 
