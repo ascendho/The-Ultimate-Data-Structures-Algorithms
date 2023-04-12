@@ -1,5 +1,7 @@
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
@@ -36,6 +38,26 @@ public class Main {
         CharFinder charFinder = new CharFinder();
         System.out.println(charFinder.findFirstNonRepeatingChar("A Green Apple"));
         System.out.println(charFinder.findFirstNonRepeatingChar("An Apple is Green"));
+
+        System.out.println("--------");
+
+//        Built-in HashSet
+        System.out.println("Built-in HashSet");
+
+        Set<Integer> set = new HashSet<>();
+
+        int[] numbers = {1, 2, 3, 3, 2, 1, 4};
+        for (var number : numbers)
+            set.add(number);
+        System.out.println(set);
+
+        System.out.println("--------");
+
+//        findFirstRepeatedChar
+        System.out.println("findFirstRepeatedChar");
+
+        System.out.println(charFinder.findFirstRepeatedChar("green apple"));
+        System.out.println(charFinder.findFirstRepeatedChar("An Apple is Green"));
 
         System.out.println("--------");
 

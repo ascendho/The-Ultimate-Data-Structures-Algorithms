@@ -10,17 +10,17 @@
 				{
 					"includeDirectories" : 
 					[
-						"D:/CLion/CLion 2022.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include",
-						"D:/CLion/CLion 2022.1/bin/mingw/include",
-						"D:/CLion/CLion 2022.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed",
-						"D:/CLion/CLion 2022.1/bin/mingw/x86_64-w64-mingw32/include"
+						"D:/CLion 2023.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include",
+						"D:/CLion 2023.1.1/bin/mingw/include",
+						"D:/CLion 2023.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed",
+						"D:/CLion 2023.1.1/bin/mingw/x86_64-w64-mingw32/include"
 					],
 					"linkDirectories" : 
 					[
-						"D:/CLion/CLion 2022.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0",
-						"D:/CLion/CLion 2022.1/bin/mingw/lib/gcc",
-						"D:/CLion/CLion 2022.1/bin/mingw/x86_64-w64-mingw32/lib",
-						"D:/CLion/CLion 2022.1/bin/mingw/lib"
+						"D:/CLion 2023.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0",
+						"D:/CLion 2023.1.1/bin/mingw/lib/gcc",
+						"D:/CLion 2023.1.1/bin/mingw/x86_64-w64-mingw32/lib",
+						"D:/CLion 2023.1.1/bin/mingw/lib"
 					],
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : 
@@ -43,7 +43,7 @@
 						"kernel32"
 					]
 				},
-				"path" : "D:/CLion/CLion 2022.1/bin/mingw/bin/gcc.exe",
+				"path" : "D:/CLion 2023.1.1/bin/mingw/bin/gcc.exe",
 				"version" : "11.2.0"
 			},
 			"language" : "C",
@@ -61,20 +61,20 @@
 				{
 					"includeDirectories" : 
 					[
-						"D:/CLion/CLion 2022.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++",
-						"D:/CLion/CLion 2022.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32",
-						"D:/CLion/CLion 2022.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward",
-						"D:/CLion/CLion 2022.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include",
-						"D:/CLion/CLion 2022.1/bin/mingw/include",
-						"D:/CLion/CLion 2022.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed",
-						"D:/CLion/CLion 2022.1/bin/mingw/x86_64-w64-mingw32/include"
+						"D:/CLion 2023.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++",
+						"D:/CLion 2023.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32",
+						"D:/CLion 2023.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward",
+						"D:/CLion 2023.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include",
+						"D:/CLion 2023.1.1/bin/mingw/include",
+						"D:/CLion 2023.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed",
+						"D:/CLion 2023.1.1/bin/mingw/x86_64-w64-mingw32/include"
 					],
 					"linkDirectories" : 
 					[
-						"D:/CLion/CLion 2022.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0",
-						"D:/CLion/CLion 2022.1/bin/mingw/lib/gcc",
-						"D:/CLion/CLion 2022.1/bin/mingw/x86_64-w64-mingw32/lib",
-						"D:/CLion/CLion 2022.1/bin/mingw/lib"
+						"D:/CLion 2023.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0",
+						"D:/CLion 2023.1.1/bin/mingw/lib/gcc",
+						"D:/CLion 2023.1.1/bin/mingw/x86_64-w64-mingw32/lib",
+						"D:/CLion 2023.1.1/bin/mingw/lib"
 					],
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : 
@@ -100,7 +100,7 @@
 						"kernel32"
 					]
 				},
-				"path" : "D:/CLion/CLion 2022.1/bin/mingw/bin/g++.exe",
+				"path" : "D:/CLion 2023.1.1/bin/mingw/bin/g++.exe",
 				"version" : "11.2.0"
 			},
 			"language" : "CXX",
@@ -123,7 +123,7 @@
 			"compiler" : 
 			{
 				"implicit" : {},
-				"path" : "D:/CLion/CLion 2022.1/bin/mingw/bin/windres.exe"
+				"path" : "D:/CLion 2023.1.1/bin/mingw/bin/windres.exe"
 			},
 			"language" : "RC",
 			"sourceFileExtensions" : 

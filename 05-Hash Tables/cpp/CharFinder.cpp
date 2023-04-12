@@ -1,5 +1,6 @@
 #include "CharFinder.h"
 #include<unordered_map>
+#include<set>
 
 char CharFinder::findFirstNonRepeatingChar(string str) {
     unordered_map<char, int> unorderedMap;
@@ -16,6 +17,19 @@ char CharFinder::findFirstNonRepeatingChar(string str) {
             return ch;
     }
 
+
+    return CHAR_MIN;
+}
+
+char CharFinder::findFirstRepeatedChar(string str) {
+    set<int> s;
+
+    for (char ch: str) {
+        if (s.count(ch))
+            return ch;
+
+        s.insert(ch);
+    }
 
     return CHAR_MIN;
 }

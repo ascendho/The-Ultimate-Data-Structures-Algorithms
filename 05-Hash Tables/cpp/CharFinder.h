@@ -11,6 +11,7 @@ class CharFinder {
 
 public:
     char findFirstNonRepeatingChar(string str);
+    char findFirstRepeatedChar(string str);
 
 };
 
