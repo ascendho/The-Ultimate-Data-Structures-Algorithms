@@ -1,10 +1,13 @@
 #include <iostream>
 #include <unordered_map>
 #include <set>
+#include <functional>
 
 #include"CharFinder.h"
 
 using namespace std;
+
+int Hash(string key);
 
 int main() {
 
@@ -54,5 +57,25 @@ int main() {
 
     cout << "--------" << endl;
 
+//    Hash Functions
+    cout << "Hash Functions" << endl;
+
+    cout << Hash("123456-A") << endl;
+
+    hash<string> str;
+    cout << str("123456-A") << endl;
+
+    cout << "--------" << endl;
+
+
     return 0;
+}
+
+int Hash(string key) {
+    int hash = 0;
+    for (auto ch: key)
+        hash += ch;
+
+
+    return hash % 100;
 }

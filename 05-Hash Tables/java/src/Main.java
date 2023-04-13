@@ -61,5 +61,25 @@ public class Main {
 
         System.out.println("--------");
 
+//        Hash Functions
+        System.out.println("Hash Functions");
+
+        Map<String, String> newMap = new HashMap<>();
+        newMap.put("123456-A", "Mosh");
+        System.out.println(hash("123456-A"));
+
+        String str = "orange";
+        System.out.println(str.hashCode());
+
+        System.out.println("--------");
+
+    }
+
+    public static int hash(String key) {
+        int hash = 0;
+        for (var ch : key.toCharArray())
+            hash += ch;
+
+        return hash % 100;
     }
 }

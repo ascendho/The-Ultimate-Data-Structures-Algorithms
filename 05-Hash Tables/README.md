@@ -42,3 +42,26 @@ typora-copy-images-to: ./..\img
 |  Lookup   |   $O(1)$   |
 |  Delete   |   $O(1)$   |
 
+
+
+## Collisions
+
+![image-20230413153723412](../img/image-20230413153723412.png)
+
+- **Chaining**
+
+![image-20230413154050270](../img/image-20230413154050270.png)
+
+
+
+- **Open Addressing**
+
+![](../img/image-20230413154455384.png)
+
+
+
+![image-20230413154738608](../img/image-20230413154738608.png)
+
+
+
+![image-20230413155158934](../img/image-20230413155158934.png)
