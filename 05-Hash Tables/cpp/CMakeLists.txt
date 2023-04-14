@@ -3,4 +3,4 @@ project(cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(cpp main.cpp CharFinder.cpp CharFinder.h)
+add_executable(cpp main.cpp CharFinder.cpp CharFinder.h HashTable.cpp HashTable.h)

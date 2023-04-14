@@ -73,6 +73,20 @@ public class Main {
 
         System.out.println("--------");
 
+//        Custom Hash Table
+        System.out.println("Custom Hash Table");
+
+        HashTable table = new HashTable(5);
+        table.put(6, "A");
+        table.put(8, "B");
+        table.put(11, "C");
+        table.put(6, "A+");
+//        table.put(6, "null");
+        table.remove(6);
+        System.out.println(table.get(6));
+
+        System.out.println("--------");
+
     }
 
     public static int hash(String key) {
