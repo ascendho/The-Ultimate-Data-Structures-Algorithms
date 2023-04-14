@@ -65,3 +65,21 @@ typora-copy-images-to: ./..\img
 
 
 ![image-20230413155158934](../img/image-20230413155158934.png)
+
+
+
+## Summary
+
+- To store key/value pairs
+
+- Insert, remove, lookup in $O(1)$
+
+- Hash function
+
+- Collision
+
+   - Chaining
+   
+  - Open addressing
+  
+    
