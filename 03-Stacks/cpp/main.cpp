@@ -52,7 +52,7 @@ int main() {
 
     twoStacks.push2(20);
     twoStacks.push2(40);
-//    twoStacks.push2(50);
+    //twoStacks.push2(50);
 
     while (!twoStacks.isEmpty1() || !twoStacks.isEmpty2()) {
 

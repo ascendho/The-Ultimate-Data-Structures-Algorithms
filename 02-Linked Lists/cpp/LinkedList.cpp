@@ -130,7 +130,7 @@ void LinkedList::reverse() {
 
 int LinkedList::getKthFromTheEnd(int k) {
     if (isEmpty())
-        exit(EXIT_FAILURE);
+        throw ("List is empty");
 
     Node *head = first;
     Node *second = first;
@@ -140,7 +140,7 @@ int LinkedList::getKthFromTheEnd(int k) {
 
         // k is too large
         if (nullptr == second)
-            exit(EXIT_FAILURE);
+            throw ("K is too large");
     }
 
     while (second != last) {
@@ -154,7 +154,8 @@ int LinkedList::getKthFromTheEnd(int k) {
 // My custom method
 Node *LinkedList::getKthNodeFromTheEnd(int k) {
     if (isEmpty())
-        exit(EXIT_FAILURE);
+        throw ("List is empty");
+
 
     Node *head = first;
     Node *node = nullptr;
@@ -172,7 +173,7 @@ Node *LinkedList::getKthNodeFromTheEnd(int k) {
 
 void LinkedList::printMiddle() {
     if (isEmpty())
-        exit(EXIT_FAILURE);
+        throw ("List is empty");
 
     Node *head = first;
     Node *tail = first;

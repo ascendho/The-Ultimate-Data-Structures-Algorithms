@@ -14,7 +14,8 @@ using namespace std;
 void myReverse(queue<int> &);
 
 int main() {
-//    built-in queue
+    // built-in queue
+
     cout << "built-in queue" << endl;
     queue<int> q;
     q.push(10);
@@ -28,7 +29,7 @@ int main() {
 //        q.pop();
 //    }
 
-//    myReverse
+    // myReverse
     cout << "myReverse" << endl;
 
     myReverse(q);
@@ -39,7 +40,7 @@ int main() {
     }
     cout << "--------" << endl;
 
-//    Custom ArrayQueue
+    // Custom ArrayQueue
 
     cout << "Custom ArrayQueue" << endl;
 
@@ -58,7 +59,7 @@ int main() {
 
     cout << "--------" << endl;
 
-//    QueueWithTwoStacks
+    // QueueWithTwoStacks
 
     cout << "QueueWithTwoStacks" << endl;
 
@@ -73,7 +74,7 @@ int main() {
     cout << queueWithTwoStacks.dequeue() << endl;
     cout << "--------" << endl;
 
-//    built-in priority queue
+    // built-in priority queue
 
     cout << "built-in priority queue" << endl;
     priority_queue<int, vector<int>, greater<int>> priorityQueue;
@@ -88,7 +89,7 @@ int main() {
 
     cout << "--------" << endl;
 
-//    custom priority queue
+    // custom priority queue
     cout << "custom priority queue" << endl;
 
     MyPriorityQueue myPriorityQueue(5);
@@ -105,7 +106,7 @@ int main() {
 
     cout << "--------" << endl;
 
-//    QueueReverser
+    // QueueReverser
     cout << "QueueReverser" << endl;
 
     QueueReverser queueReverser;
@@ -126,7 +127,7 @@ int main() {
 
     cout << "--------" << endl;
 
-//    LinkedListQueue
+    // LinkedListQueue
     cout << "LinkedListQueue" << endl;
 
     LinkedListQueue linkedListQueue;
@@ -140,7 +141,7 @@ int main() {
 
     cout << "--------" << endl;
 
-//    StackWithTwoQueues
+    // StackWithTwoQueues
     cout << "StackWithTwoQueues" << endl;
 
     StackWithTwoQueues stackWithTwoQueues;

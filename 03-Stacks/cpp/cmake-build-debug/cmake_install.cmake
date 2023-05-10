@@ -1,4 +1,4 @@
-# Install script for directory: D:/Udemy/javaDS/code/Stack/cpp
+# Install script for directory: D:/Udemy/DSandAlg/javaDS/code/03-Stacks/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/CLion/CLion 2022.1/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/CLion 2023.1.1/bin/mingw/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Udemy/javaDS/code/Stack/cpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Udemy/DSandAlg/javaDS/code/03-Stacks/cpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

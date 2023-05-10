@@ -5,7 +5,7 @@ using namespace std;
 
 string StringReverser::reverse(string input) {
     if (input.empty())
-        exit(EXIT_FAILURE);
+        throw "input is empty";
 
     stack<char> buf;
 

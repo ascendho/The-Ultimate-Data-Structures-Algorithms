@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-//   Custom LinkedList
+    // Custom LinkedList
     cout << "Custom LinkedList" << endl;
 
     LinkedList list;
@@ -14,7 +14,6 @@ int main() {
     list.addLast(30);
     list.addFirst(40);
 
-    // [40 10 20 30]
 
     cout << list.indexOf(30) << endl;
     cout << boolalpha << list.contains(30) << endl;
@@ -23,26 +22,35 @@ int main() {
 
     cout << "--------" << endl;
 
-    // [10 20]
+    // Reverse
+    cout << "Reverse" << endl;
 
-//    Reverse
     list.reverse();
-    // [20 10]
 
     int *arr = list.toArray();
     for (int i = 0; i < _msize(arr) / sizeof(arr[0]); i++)
         cout << arr[i] << " ";
 
+    cout << "--------" << endl;
+
     list.addFirst(30);
     list.addLast(50);
-//  [30 20 10 50]
+
+    // getKthFromTheEnd
+    cout << "getKthFromTheEnd" << endl;
 
     cout << list.getKthFromTheEnd(3) << endl;
     cout << list.getKthNodeFromTheEnd(3)->value << endl;
-//   20
+
+    cout << "--------" << endl;
+
+    // createWithLoop
+    cout << "createWithLoop" << endl;
 
     LinkedList *listWithLoop = LinkedList::createWithLoop();
     cout << listWithLoop->hasLoop() << endl;
+
+    cout << "--------" << endl;
 
     return 0;
 }
